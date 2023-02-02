@@ -26,11 +26,11 @@ public static void main(String args[])
 {
     int x[] ={1,2,3,4,5};
     int key = 2;
-
-Scanner sc = new Scanner(System.in);
+System.out.println("Menu driven program:")
+    Scanner sc = new Scanner(System.in);
     System.out.println("Enter 1. for linear search");
     System.out.println("Enter 2. for Binary search");
-int s = sc.nextInt();
+    int s = sc.nextInt();
 
     switch(s)
     {
